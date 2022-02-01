@@ -1,0 +1,172 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+ul {
+  list-style-type: none;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+nav {
+  min-height: 50px;
+  background-color: cyan;
+}
+
+.nav-block {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* position: fixed; */
+  top: 0;
+}
+.logo {
+  width: 150px;
+  height: 50px;
+}
+.logo img {
+  width: 100%;
+  height: 100%;
+}
+.navigate {
+  display: flex;
+  flex-basis: 35%;
+}
+
+.navigate ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.navigate ul > li > a {
+  color: #000;
+  font-size: 18px;
+}
+.navigate ul > li > a:hover {
+  color: red;
+}
+.about-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.aside-block {
+  width: 100%;
+}
+.links-blok {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+}
+
+.main-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.img-block {
+  width: 220px;
+  height: 150px;
+}
+
+.img-block img {
+  width: 100%;
+  height: 100%;
+}
+.img-pararag-block {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px;
+}
+
+.parag-block {
+  width: 45%;
+}
+
+.form-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-block form label {
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+.form-block form input {
+  padding: 10px 30px;
+  margin: 10px 0;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+.form-block form input::placeholder {
+  font-size: 16px;
+  color: #000;
+  text-align: center;
+}
+
+.btn {
+  width: 50%;
+  text-align: center;
+}
+.form-block form .btn > input {
+  padding: 10px 88px;
+  background-color: #fff;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  transition: 1s;
+}
+.form-block form .btn > input:hover {
+  background-color: goldenrod;
+}
+
+footer {
+  background-color: #000;
+  margin-top: 20px;
+  min-height: 50px;
+}
+
+.end-block {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.end-block a {
+  color: #fff;
+}
+.ending-list {
+  width: 35%;
+}
+
+.ending-list ul {
+  display: flex;
+  justify-content: space-between;
+}
+.ending-number {
+  width: 30%;
+}
+.ending-number ol {
+  display: flex;
+  justify-content: space-between;
+}
